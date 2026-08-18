@@ -511,7 +511,7 @@ async function search(query, page = 0) {
             pageSize: String(PAGE_SIZE),
             index: String(page * PAGE_SIZE),
             classId: '6',
-            sortField: '2',
+            sortField: '1',
             sortOrder: 'desc'
         });
 
